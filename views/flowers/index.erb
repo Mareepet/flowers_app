@@ -1,0 +1,40 @@
+<h1> Uniqc Flowers App</h1>
+
+<% if logged_in? %>
+  <h1>Welcome to Uniqc Flowers App <%= current_user['first_name'] %></h1>
+
+  <section class="controls">
+    <form action="/sessions" method="POST">
+      <input type="hidden" name="_method" value="delete">
+      <button>Logout</button>
+    </form>
+     <br>
+     <a href="/flowers/new">Add new Flower </a>
+
+  <section class="flowers">
+   <% flowers.each do |flower| %>
+    <section class="flower">
+      <header>
+        <h2><%= flower['name'] %></h2>
+        <section class="controls">
+        <a href="/flowers/<%= flower['id']%>/edit">Edit</a>
+        <form action="flowers/<%= flower['id']%>" method="POST">
+         <input type="hidden" name="_method" value="delete">
+        <button>Delete</button>
+        </form>
+        </section>
+       </header>
+      <img src="<%= flower['image_url'] %>" alt="">
+      <footer>
+        <h4>Region: <%= flower['region'] %></h4>
+        <h4>Family: <%= flower['family'] %></h4>
+       </footer>
+    </section>
+  <% end %>
+</section>
+<% else %>
+   <div class="a">
+  <a href="/users/new">Sign Up</a>
+  <a href="/sessions/new">Login</a>
+  </div>
+<% end %>

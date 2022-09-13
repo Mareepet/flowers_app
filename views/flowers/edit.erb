@@ -1,0 +1,23 @@
+<h1>Edit Flower</h1>
+<div class="edit">
+ <form action="/flowers/<%= flower['id'] %>" method="POST">
+  <input type="hidden" name="method" value="put">
+  <label for="">Name:- </label>
+  <input type="text" name="name" value="<%=flower['name']%>">
+   <br>
+   <br>
+  <label for="">Region:- </label>
+  <input type="text" name="region" value="<%=flower['region']%>">
+   <br>
+   <br>
+  <label for="">Family:- </label>
+  <input type="text" name="family" value="<%=flower['family']%>"> 
+   <br> 
+   <br>
+  <label for="">Img url:- </label>
+  <input type="text" name="image_url" value="<%=flower['image_url']%>">
+   <br>
+   <br>
+  <button>Update</button>
+</form>
+</div>

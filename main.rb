@@ -1,9 +1,14 @@
      
 require 'sinatra'
+require 'bcrypt'
+require './db/db'
+enable :sessions
 
-get '/' do
-  erb :index
-end
+require './controllers/flowers_controller'
+require './controllers/users_controller'
+require './controllers/sessions_controller'
+require './helpers/sessions_helper'
+
 
 
 
