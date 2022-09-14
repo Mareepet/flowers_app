@@ -1,13 +1,12 @@
-<h1> Uniqc Flowers App</h1>
 
 <% if logged_in? %>
-  <h1>Welcome to Uniqc Flowers App <%= current_user['first_name'] %></h1>
+  <h1>Welcome to Uniq Flowers App <%= current_user['first_name'] %></h1>
 
   <section class="controls">
-    <form action="/sessions" method="POST">
+     <form action="/sessions" method="POST">
       <input type="hidden" name="_method" value="delete">
-      <button>Logout</button>
-    </form>
+      <button class = "btn">Logout</button>
+     </form>
      <br>
      <a href="/flowers/new">Add new Flower </a>
 
@@ -33,8 +32,18 @@
   <% end %>
 </section>
 <% else %>
+  <h1> Uniq Flowers App</h1>
    <div class="a">
+   <p> Hi Visitor. Welcome to Uniq flowers collections. Please Sign up to explore further.</p>
   <a href="/users/new">Sign Up</a>
+  <p>If u have already signedup, Use existing Login credentials. </p>
   <a href="/sessions/new">Login</a>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+  <img src="https://thumbs.gfycat.com/GlitteringDependentIchneumonfly.webp" alt="">
   </div>
 <% end %>
