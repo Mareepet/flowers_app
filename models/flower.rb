@@ -18,3 +18,9 @@ end
 def delete_flower(id)
     run_sql("DELETE FROM flowers  WHERE id = $1",[id])
 end
+
+def get_search_flower(name)
+    run_sql("SELECT * FROM flowers WHERE name ILIKE $1",[name])
+end
+
+

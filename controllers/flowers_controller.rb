@@ -26,7 +26,7 @@ end
 get '/flowers/:id/edit' do
     id = params['id']
     flower = get_flower(id)
-    
+
     erb :'flowers/edit', locals: {
         flower: flower
     }
@@ -38,14 +38,10 @@ post '/flowers/:id' do
     region =params['region']
     family = params['family']
     image_url = params['image_url']
-    
-  
-    update_flower(id,name,region,family,image_url)
 
+    update_flower(id,name,region,family,image_url)
     redirect'/'
   end
-
-  
 
 delete '/flowers/:id' do
   id = params['id']
@@ -54,10 +50,27 @@ delete '/flowers/:id' do
   redirect'/'
 end
 
+ get '/search' do
+   name = params['name']
+  #  selected_flower = get_search_flower(name)
+  selected_flower = get_search_flower(name)
 
+   erb :'flowers/search',locals:{
+    selected_flower: selected_flower
+}
+ end
 
+ get '/all' do
+  flowers = all_flowers()
 
+  erb :'flowers/all',locals:{
+   flowers: flowers
+  }
+end
 
+get '/more' do
+  erb :'flowers/more'
+end
 
 
 

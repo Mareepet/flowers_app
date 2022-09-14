@@ -1,0 +1,9 @@
+<h1>Slected Flower</h1>
+<a href="/more">Home</a>
+ <% flowers.each do |flower| %>
+   <div class="search">
+    <h2><%= flower['name'] %></h2>
+    <img src="<%= flower['image_url'] %>" alt="">
+    <h4><%= flower['region'] %></h4>
+    <h4><%= flower['family'] %></h4>
+ <% end %>
