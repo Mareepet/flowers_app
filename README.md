@@ -9,11 +9,11 @@
 - There is also another option for users to search and view flowers from the database.
 
 ## :pencil2: Planning 
-- Got introtuced to Trello.
-- Firstly, worked on MVP features like gem files, database, 2 tables, SQL commands,CURD actions with ruby sinatra etc.
+- Got introduced to Trello.
+- Firstly, worked to ensure created application is MVP. Worked on gem files, database, creation of two tables, SQL commands, CURD actions with ruby sinatra etc.
 
 ## :pencil2: Problem solving 
-- Overall search button connection issuse between erb files and db issuse fixed.
+- Overall search button connection issues between erb files and DB issues were fixed.
 
 ## :rocket: Cool tech
 - Ruby
@@ -21,14 +21,15 @@
 - HTML 
 - CSS
 - SQL
-- gif 
+- gif
+- CURD actions
 
 ## :scream: Bugs to fix :poop:
-- Sql command 
-- search button issuse
+- SQL query 
+- Search button issuse
 
-## :sob: Lessons learnt
+##  Lessons learnt
 ## ![alt text](https://www.sdsconsulting.org/wp-content/uploads/2021/04/image1.jpg)
 
 ## :white_check_mark: Future features
--  Additionals features in the future to enhance user experience
+-  Additional features to be incorpoarted in future, to enhance user experience
