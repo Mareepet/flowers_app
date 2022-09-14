@@ -3,8 +3,10 @@
 ## :computer: [Click here](https://unique-flowers-app.herokuapp.com/) to see my live project!
 ## ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPvxBsfR3HZDFlXQZ6uo9oWx4OgjuO7i_rOxIm5Uxt_kesOD9-dJTFA5rIwC-L33S8VY&usqp=CAU)
 ## :page_facing_up: About
-- How to use my awesome project.
-- Download instructions (if relevant):
+- It is a full-stack database backed Sinatra application 
+- It is an application designed to showcase unique flowers across the globe.
+- One set of users can sign in using their email address credentials and will have full edit access. Another set of users can only view flower collections, without signing in.
+- There is also another option for users to search and view flowers from the database.
 ```zsh
 $ git clone my-awesome-app
 $ cd my-awesome-app
