@@ -1,10 +1,7 @@
 #  Project Name: flowers_app
 
-
-The briefest description of my cool project and why you should all use it.
-
 ## :computer: [Click here](https://unique-flowers-app.herokuapp.com/) to see my live project!
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkpASxhB0RilHgi9dIfAE1aK4xVp26m9xuQ&usqp=CAU)
+## ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtkpASxhB0RilHgi9dIfAE1aK4xVp26m9xuQ&usqp=CAU)
 ## :page_facing_up: About
 - How to use my awesome project.
 - Download instructions (if relevant):
