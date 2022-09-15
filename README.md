@@ -25,8 +25,8 @@
 - CURD actions
 
 ## :scream: Bugs to fix :poop:
-- SQL query 
-- Search button issuse
+- ~~SQL query~~
+- ~~Search button issuse~~
 
 ##  Lessons learnt
 ## ![alt text](https://www.sdsconsulting.org/wp-content/uploads/2021/04/image1.jpg)
