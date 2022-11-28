@@ -10,7 +10,7 @@
 
 ## :pencil2: Planning 
 - Got introduced to Trello.
-- Firstly, worked to ensure created application is MVP. Worked on gem files, database, creation of two tables, SQL commands, CURD actions with ruby sinatra etc.
+- Firstly, worked to ensure created application is MVP. Worked on gem files, database, creation of two tables, SQL commands, CRUD actions with ruby sinatra etc.
 
 ## :pencil2: Problem solving 
 - Overall search button connection issues between erb files and DB issues were fixed.
@@ -22,7 +22,7 @@
 - CSS
 - SQL
 - gif
-- CURD actions
+- CRUD actions
 
 ## :scream: Bugs to fix :poop:
 - ~~SQL query~~
