@@ -1,6 +1,6 @@
 #  Project Name: flowers_app
 
-## :computer: [Click here](https://unique-flowers-app.herokuapp.com/) to see my live project!
+## :computer: [Click here](https://uniq-flower-app.onrender.com) to see my live project!
 ## ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPvxBsfR3HZDFlXQZ6uo9oWx4OgjuO7i_rOxIm5Uxt_kesOD9-dJTFA5rIwC-L33S8VY&usqp=CAU)
 ## :page_facing_up: About
 - It is a full-stack database backed Sinatra application 
